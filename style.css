@@ -2,13 +2,18 @@
 *{
   font-family: Garamond ;
 }
-.d_flex{
-  display:flex;
+.navbar {
+  min-height: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .logo{
   font-weight: bold;
   font-size: 21px;
 }
+.navbar-brand {
+    margin-right: 0rem;
+  }
 nav{
   border-bottom: 1px solid rgba(186, 186, 186,.3) ;
   position: fixed;
@@ -344,7 +349,31 @@ display: none;
         border-bottom:  3px solid #bfbfbf ;
   }
 }
+.hover{
+  min-width: 50px;
+min-height: 60px;
+align-items: center;
+justify-content: center;
+padding-top: 10px;
+transition-duration: .6s;
+}
+.hover:hover{
+transform:scale(1.4);
+transition-duration: .6s;
+}
+.hover-2{
+  min-width: 50px;
+min-height: 60px;
+align-items: center;
+justify-content: center;
+padding-top: 10px;
+transition-duration: .4s;
+}
+.hover-2:hover{
+transform:  scale(1.5) translateX(-16px) translateY(16px)  ;
+transition-duration: .9s;
 
+}
 .auto{
 width: 67vw;
 margin:auto;
