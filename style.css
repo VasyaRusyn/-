@@ -602,6 +602,7 @@ display: none;
   width: 40px;
   height: 40px;
   }
+
 }
 @media (max-width:390px) {
   #twitter{
@@ -613,7 +614,10 @@ margin-left: 0;
 min-width: 30px;
   }
   .mt1{
-    margin-top: 90px;
+    margin-top: 30px;
+      }
+      .mt_top2{
+        margin-top: 80px;
       }
       .revers_block{
         padding: 0 ;
@@ -627,6 +631,9 @@ min-width: 30px;
 }@media (max-width:321px) {
   #twitter{
     max-width: 25px;
+  }
+  .mt_top2{
+    margin-top: 80px;
   }
   .twiter{
 border: none;
